@@ -46,7 +46,7 @@ in_mod = st.selectbox(
   "Selecciona la modalidad",
   ("Audio", "Visual", "Haptico"),
 )
-if in_mod === "Audio":
+if in_mod == "Audio":
   set_mod = "Reproducir audio"
 elif in_mod == "Visual":
   set_mod = "Reproducir video"
