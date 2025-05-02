@@ -18,15 +18,15 @@ st.subheader("Personajes")
 col1, col2 = st.columns(2)
 
 with col1:
-  st.subheader("Esta es la primera columna")
-  st.write("Las Interfaces Multimodales mejoraan la experiencia de usuario")
+  st.subheader("primera columna")
+  st.write("El color rojo es el mejor")
   resp = st.checkbox("Estoy de acuerdo")
   if resp:
-    st.write("Correcto!")
+    st.write("Perfecto!")
 
 with col2:
-  st.subheader("Esta es las egunda columna")
-  st.write("Las interfaces multimodales mejoran la experiencia de usuario")
+  st.subheader("segunda columna")
+  st.write("Aqui están tus opciones!")
   modo = st.radio("Que modalidad es la principal en tu interfaz", ("Visual", "Auditiva", "Tactil"))
   if modo == "Visual":
     st.write("La vista es fundamental para tu interfaz")
